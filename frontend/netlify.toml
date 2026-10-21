@@ -1,0 +1,12 @@
+# ==============================================================================
+# NETLIFY CONFIGURATION (netlify.toml)
+# ==============================================================================
+# Plik konfiguracyjny dla hostingu Netlify definiujący katalog budowania oraz
+# ścieżkę do funkcji serwerowych (Netlify Functions).
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
