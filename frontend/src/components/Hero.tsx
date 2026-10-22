@@ -194,9 +194,6 @@ export const Hero: React.FC<HeroProps> = ({ onOrderClick }) => {
                   </div>
                 </div>
 
-                <span className="text-[11px] font-semibold text-slate-500">
-                  {activeDemo.name}
-                </span>
               </div>
             </div>
           </div>
